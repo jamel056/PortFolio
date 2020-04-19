@@ -81,13 +81,13 @@ namespace Web.Controllers
         // GET: PortFolioItems/Edit/5
         public IActionResult Edit(Guid? id)
         {
-            if (id != null)
+            if (id == null)
             {
                 return NotFound();
             }
 
             var portFolioItem = _portFolio.Entity.GetById(id);
-            if (portFolioItem != null)
+            if (portFolioItem == null)
             {
                 return NotFound();
             }
