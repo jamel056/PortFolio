@@ -28,7 +28,7 @@ namespace Web
             {
                 endpoints.MapControllerRoute(
                     "defaultRoute",
-                    "{controller = Home}/{action = Index}/{id?}"
+                    "{controller=Home}/{action=Index}/{id?}"
                     );
             });
         }
