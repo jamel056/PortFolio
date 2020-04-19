@@ -3,3 +3,7 @@
 ################################################################################
 
 /JameelPortFolio/Web/obj/Debug/netcoreapp3.1
+/JameelPortFolio/Web/obj
+/JameelPortFolio/Infrastructure/obj
+/JameelPortFolio/Core/obj
+/JameelPortFolio/.vs/JameelPortFolio/v16
