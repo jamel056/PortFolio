@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Core.Interfaces
 {
@@ -10,6 +9,5 @@ namespace Core.Interfaces
         void Insert(T entity);
         void Update(T entity);
         void Delete(object id);
-        bool Any(Func<object, object> p);
     }
 }
