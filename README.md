@@ -1,2 +1,0 @@
-# MyOwn
-My Own Project
