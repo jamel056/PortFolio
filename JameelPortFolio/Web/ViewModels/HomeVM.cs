@@ -7,5 +7,6 @@ namespace Web.ViewModels
     {
         public Owner Owner { get; set; }
         public List<PortFolioItem> PortFolioItems { get; set; }
+        public Address Address { get; set; }
     }
 }
